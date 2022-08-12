@@ -15,7 +15,11 @@
 <body>
   <div class="container">
     <header class="main-head">
-      <div class="logo"><img src="assests/images/logo.png" alt="logo" height="80px" width="80px"></div>
+      <div class="logo">
+        <a href="index.html">
+          <img src="assests/images/logo.png" alt="logo" height="80px" width="80px">
+        </a>
+      </div>
       <div class="login-btn"><a href="login.html">Login</a></div>
     </header>
 
@@ -24,7 +28,26 @@
         <div class="hotel-img">
           <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Hotel Image">
         </div>
-        <p><a href="payment.html">Book Now</a></p>
+        <div class="book-now-form">
+          <form action="payment.html" method="get">
+            <label for="adults">Adults</label>
+            <input type="number" min="1" name="adults" id="adults">
+            <br>
+            <label for="name">Name </label>
+            <input type="text" name="name" id="name" required>
+            <br>
+            <label for="from_date">From Date</label>
+            <input type="date" name="from-date" id="from_date" required>
+            <br>
+            <label for="to_date">To Date</label>
+            <input type="date" name="to-date" id="to_date" required>
+            <br>
+            <label for="total">Total </label>
+            <input type="text" name="total" id="total" disabled>
+            <br>
+            <button type="submit">Book Now</button>
+          </form>
+        </div>
         <h2 class="hotel-name">Radission Blu Hotel</h2>
         <div class="hotel-rating">
           RATING <br> 5 Star
