@@ -1,0 +1,8 @@
+.hotel-img img{
+  height: 500px;
+  width: 500px;
+
+  /* In video, you told size is 500px X 500px but in segment it is 150 X 150 px
+  I Chosen 500 X 500px
+  */
+}
