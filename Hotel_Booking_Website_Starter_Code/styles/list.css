@@ -1,4 +1,27 @@
-
+.list-options{
+  display: flex;
+  justify-content: center;
+}
+.list-options ul{
+  margin: 10px;
+}
+.list-options ul li{
+  list-style-type: none;
+  display: inline;
+  padding: 0 20px;
+}
+.list-options ul li a{
+  color: black;
+  text-decoration: none;
+}
+.list-items{
+  margin: 0 10%;
+}
+#list-view{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .list-itm{
   margin: 2%;
   background-color: rgb(132,136,139);
@@ -8,4 +31,7 @@
 .list-items div img{
   height: 150px;
   width: 150px;
+}
+#map-view{
+  display: none;
 }

@@ -4,6 +4,7 @@
   height: 20%;
   position: relative;
   margin: 2% auto;
+  z-index: -1;
 }
 
 .hotel-img img{
