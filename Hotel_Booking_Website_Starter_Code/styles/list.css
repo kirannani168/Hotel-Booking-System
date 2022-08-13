@@ -1,4 +1,11 @@
+
+.list-itm{
+  margin: 2%;
+  background-color: rgb(132,136,139);
+  width: 40%;
+}
+
 .list-items div img{
-  height: 400px;
-  width: 70%;
+  height: 150px;
+  width: 150px;
 }

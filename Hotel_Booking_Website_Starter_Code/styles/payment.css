@@ -1,0 +1,24 @@
+#hotal-details{
+  background-color: rgb(132,136,139);
+  width: 50%;
+  height: 20%;
+  position: relative;
+  margin: 2% auto;
+}
+
+.hotel-img img{
+  height: 500px;
+  width: 500px;
+
+  /* In video, you told size is 500px X 500px but in segment it is 150 X 150 px
+  I Chosen 500 X 500px
+  */
+}
+.content-div{
+  margin: 2%;
+}
+#total-bill{
+  padding: 1% 2%;
+  border: 3px solid black;
+  border-radius: 5px;
+}
