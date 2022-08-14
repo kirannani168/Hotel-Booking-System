@@ -1,25 +1,47 @@
 #hotal-details{
-  background-color: rgb(132,136,139);
+  background-color: rgb(192, 202, 210);
   width: 50%;
   height: 20%;
   position: relative;
   margin: 2% auto;
   z-index: -1;
+  display: flex;
+  margin-top: 6%;
 }
 
 .hotel-img img{
-  height: 500px;
-  width: 500px;
+  height: 300px;
+  width: 370px;
 
   /* In video, you told size is 500px X 500px but in segment it is 150 X 150 px
   I Chosen 500 X 500px
   */
 }
+.hotel-info{
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
 .content-div{
   margin: 2%;
 }
-#total-bill{
+/* #total-bill{
   padding: 1% 2%;
   border: 3px solid black;
   border-radius: 5px;
+} */
+
+.hotel-details{
+  padding: 1.5%;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rosybrown;
+}
+.hotel-details div p b{
+  font-family: cursive;
 }

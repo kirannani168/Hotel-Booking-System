@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,32 +26,48 @@
 
     <div class="content-div">
       <div class="hotel-details">
-        <div class="hotel-img">
-          <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Hotel Image">
+        <div class="inner-hotel">
+          <div class="hotel-img">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Hotel Image">
+          </div>
+          <div class="book-now-form">
+            <form class="book-now-main" action="payment.html" method="get">
+              <div>
+                <label for="adults">Adults</label>
+              <input type="number" min="1" name="adults" id="adults">
+              </div>
+              <br>
+              <div>
+                <label for="name">Name </label>
+                <input type="text" name="name" id="name" required>
+              </div>
+              <br>
+              <div>
+                <label for="from_date">From Date</label>
+                <input type="date" name="from-date" id="from_date" required>
+              </div>
+              <br>
+              <div>
+                <label for="to_date">To Date</label>
+                <input type="date" name="to-date" id="to_date" required>
+              </div>
+              <br>
+              <div>
+                <label for="total">Total </label>
+                <input type="text" name="total" id="total" disabled>
+              </div>
+              <div class="booking-form-s-btn">
+                <button type="submit">Book Now</button>
+              </div>
+              
+            </form>
+          </div>
         </div>
-        <div class="book-now-form">
-          <form action="payment.html" method="get">
-            <label for="adults">Adults</label>
-            <input type="number" min="1" name="adults" id="adults">
-            <br>
-            <label for="name">Name </label>
-            <input type="text" name="name" id="name" required>
-            <br>
-            <label for="from_date">From Date</label>
-            <input type="date" name="from-date" id="from_date" required>
-            <br>
-            <label for="to_date">To Date</label>
-            <input type="date" name="to-date" id="to_date" required>
-            <br>
-            <label for="total">Total </label>
-            <input type="text" name="total" id="total" disabled>
-            <br>
-            <button type="submit">Book Now</button>
-          </form>
-        </div>
+        
         <h2 class="hotel-name">Radission Blu Hotel</h2>
         <div class="hotel-rating">
-          RATING <br> 5 Star
+          <h5>RATING</h5>
+           5 Star
         </div>
         <br>
 

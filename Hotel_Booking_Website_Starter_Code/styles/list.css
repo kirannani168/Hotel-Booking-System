@@ -1,6 +1,7 @@
 .list-options{
   display: flex;
   justify-content: center;
+  margin-top: 2%;
 }
 .list-options ul{
   margin: 10px;
@@ -15,7 +16,7 @@
   text-decoration: none;
 }
 .list-items{
-  margin: 0 10%;
+  margin: 2% 10%;
 }
 #list-view{
   display: flex;
@@ -24,14 +25,24 @@
 }
 .list-itm{
   margin: 2%;
-  background-color: rgb(132,136,139);
+  background-color: rgb(192, 202, 210);
   width: 40%;
+  height: 200px;
 }
 
 .list-items div img{
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
 }
 #map-view{
   display: none;
+}
+.list-inner{
+  display: flex;
+}
+.list-item-address{
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
