@@ -28,6 +28,7 @@
   background-color: rgb(192, 202, 210);
   width: 40%;
   height: 200px;
+  overflow: hidden;
 }
 .list-itm:hover{
   background-color: rosybrown;
@@ -51,4 +52,45 @@
 #map-view img{
   height: 500px;
   width: 600px;
+}
+
+@media screen and (min-device-width: 576px) and (max-device-width: 768px) { 
+  #list-view{
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+  }
+  .list-item-address{
+    margin: 0;
+  }
+  .list-items{
+    margin: 2% 4%;
+  }
+  .list-itm{
+    width: 80%;
+    align-self: center;
+  }
+  #map-view img{
+    height: 60vh;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #list-view{
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .list-items{
+    margin: 1% 2%;
+  }
+  .list-itm{
+    align-self: center;
+    width: 80%;
+  }
+  #map-view img{
+    height: 60vh;
+    width: 80%;
+  }
 }

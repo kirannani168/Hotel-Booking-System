@@ -90,6 +90,29 @@
   text-decoration: none;
 }
 
+@media screen and (min-device-width: 576px) and (max-device-width: 768px) { 
+  #city-inp{
+    width: 50%;
+  }
+  .search-box{
+    height: 300px;
+  }
+  .city-names{
+    z-index: -1;
+    margin: 15%;
+    justify-content: space-between;
+  }
+}
 
-
-
+@media only screen and (max-width: 576px) {
+  #city-inp{
+    width: 80%;
+  }
+  .search-box{
+    height: 300px;
+  }
+  .city-names{
+    flex-direction: column;
+    z-index: -1;
+  }
+}
