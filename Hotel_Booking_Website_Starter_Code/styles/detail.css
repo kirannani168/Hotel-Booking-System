@@ -43,6 +43,11 @@
 .booking-form-s-btn button{
   padding: 7px;
 }
+.bk_btn{
+  background-color: #e0e0e0;
+  color: green;
+}
+
 .inner-hotel{
   display: flex;
   border: 1px solid black;

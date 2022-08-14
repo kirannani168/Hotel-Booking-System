@@ -14,4 +14,8 @@ body{
   border: 8px solid #f3f3f3;
   border-radius: 50%;
   border-top: 8px solid #444444;
+  animation: mymove 1s infinite;
+}
+@keyframes mymove {
+  100% {transform: rotate(360deg);}
 }

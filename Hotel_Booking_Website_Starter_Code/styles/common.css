@@ -75,3 +75,7 @@ a, a:hover{
   color: black;
   text-decoration: none;
 }
+
+.lodin-inner div{
+  margin-top: 10px;
+}

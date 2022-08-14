@@ -83,10 +83,13 @@
 .view-more{
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin: 20px;
 }
 .view-more a{
   color: black;
   text-decoration: none;
 }
+
+
+
 

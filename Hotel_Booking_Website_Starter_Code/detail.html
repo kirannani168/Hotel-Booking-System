@@ -16,13 +16,46 @@
 <body>
   <div class="container-fluid">
     <header class="main-head">
-      <div class="logo">
-        <a href="index.html">
-          <img src="assests/images/logo.png" alt="logo">
-        </a>
+      <div class="logo"><a href="/index.html">
+        <img src="assests/images/logo.png" alt="logo">
+      </a></div>
+      <div class="login-btn">
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          Login
+        </button>
       </div>
-      <div class="login-btn"><a href="login.html">Login</a></div>
     </header>
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Login Here!!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="login-form">
+              <form class="lodin-inner" action="index.html" method="GET" autocomplete="off">
+                <div>
+                  <label for="username">Username: </label>
+                  <input id="username" type="text" placeholder="Enter username" name="username" required>
+                </div>
+                <div>
+                  <label for="password">Password: </label>
+                  <input type="password" name="password" placeholder="Enter password" required>
+                </div>
+                <div class="modal-footer">
+                  <button type="submit button" class="btn btn-primary">Login</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
 
     <div class="content-div">
       <div class="hotel-details">
@@ -57,7 +90,7 @@
                 <input type="text" name="total" id="total" disabled>
               </div>
               <div class="booking-form-s-btn">
-                <button type="submit">Book Now</button>
+                <button class="btn btn-success bk_btn" type="submit">Book Now</button>
               </div>
               
             </form>
@@ -87,30 +120,60 @@
       </div>
     </div>
 
-    <footer>
-      <div class="footer-div">
-        <div class="contact-us">
-          <a href="contact.html">Contact Us</a>
-        </div>
-        <div class="social-media-links">
-          <div class="facebook">
-            <a href=""><img src="assests/images/facebook.png" alt="fb"></a>
+        <!--CONTACT US MODEL-->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-  
-          <div class="instagram">
-            <a href=""><img src="assests/images/instagram.png" alt="insta"></a>
+          <div class="modal-body">
+            <div id="contact-us">
+              Thanks for reaching us!! <br>
+              Please enter your email and we will reach you soon <br>
+              <form action="index.html">
+                <input type="email" placeholder="Ex: example@upgrad.com" name="email" required>
+                <br>
+                <div class="modal-footer">
+                  <button type="submit button" class="btn btn-primary">Submit</button>
+                </div>
+              </form>
+            </div>
           </div>
-  
-          <div class="twitter">
-            <a href=""><img src="assests/images/twitter.png" alt=""></a>
-          </div>
-        </div>
-  
-        <div class="copyright">
-          &copy; 2022 ROOM SEARCH PVT LTD
         </div>
       </div>
-    </footer>
+    </div>
+
+<footer>
+<div class="footer-div">
+  <div class="contact-us">
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Contact Us
+    </button>
+
+  </div>
+  <div class="social-media-links">
+    <div class="facebook">
+      <a href="" target="_blank"><img src="assests/images/facebook.png" alt="fb"></a>
+    </div>
+
+    <div class="instagram">
+      <a href="" target="_blank"><img src="assests/images/instagram.png" alt="insta"></a>
+    </div>
+
+    <div class="twitter">
+      <a href="" target="_blank"><img src="assests/images/twitter.png" alt=""></a>
+    </div>
+  </div>
+
+  <div class="copyright">
+    &copy; 2022 ROOM SEARCH PVT LTD
+  </div>
+</div>
+</footer>
 
   </div>
 
