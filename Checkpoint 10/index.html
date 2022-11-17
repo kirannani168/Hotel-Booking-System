@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/common.css">
+  <link rel="stylesheet" href="styles/index.css">
+  <title>Index</title>
+  
+</head>
+<body>
+  <div class="container-fluid">
+    <header class="main-head">
+      <div class="logo"><img src="assests/images/logo.png" alt="logo"></div>
+      <div class="login-btn">
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          Login
+        </button>
+      </div>
+    </header>
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Login Here!!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="login-form">
+              <form class="lodin-inner" action="index.html" method="GET" autocomplete="off">
+                <div>
+                  <label for="username">Username: </label>
+                  <input id="username" type="text" placeholder="Enter username" name="username" required>
+                </div>
+                <div>
+                  <label for="password">Password: </label>
+                  <input type="password" name="password" placeholder="Enter password" required>
+                </div>
+                <div class="modal-footer">
+                  <button type="submit button" class="btn btn-primary">Login</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="content-div">
+      <div class="search-box">
+        <input id="city-inp" type="text" placeholder="City">
+      </div>
+
+
+      <!-- CITY NAMES-->
+      <div class="city-names">
+        <div class="city-1 city">
+          <a href="list.html">
+            <div class="c_img">
+              <img class="city-img city__img" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" alt="city-1">
+              <div class="middle">
+                <div class="text-overlay">
+                  DELHI
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="city-2 city">
+          <div class="c_img">
+            <img class="city-img city__img" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" alt="city-2">
+            <div class="middle">
+              <div class="text-overlay">
+                Goa
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="city-3 city">
+          <div class="c_img">
+            <img class="city-img city__img" src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt="city-3">
+            <div class="middle">
+              <div class="text-overlay">
+                Hyderabad
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="city-4 city">
+          <div class="c_img">
+            <img class="city-img city__img" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" alt="city-4">
+            <div class="middle">
+              <div class="text-overlay">
+                  Mumbai
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="city-names">
+        <div class="city-5 city">
+          <a href="list.html">
+            <div class="c_img">
+              <img class="city-img city__img" src="https://media-cdn.tripadvisor.com/media/photo-s/15/4d/46/b8/chennai-madras.jpg" alt="city-1">
+              <div class="middle">
+                <div class="text-overlay">
+                  Chennai
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="city-6 city">
+          <div class="c_img">
+            <img class="city-img city__img" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/fc/agra.jpg" alt="city-2">
+            <div class="middle">
+              <div class="text-overlay">
+                Agra
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="city-7 city">
+          <div class="c_img">
+            <img class="city-img city__img" src="https://media-cdn.tripadvisor.com/media/photo-s/10/a3/3b/8a/screenshot-2017-09-12.jpg" alt="city-3">
+            <div class="middle">
+              <div class="text-overlay">
+                Jaipur
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="city-8 city">
+          <div class="c_img">
+            <img class="city-img city__img" src="https://media-cdn.tripadvisor.com/media/photo-s/0c/d2/2f/7a/palace-from-the-outside.jpg" alt="city-4">
+            <div class="middle">
+              <div class="text-overlay">
+                  Bengaluru
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="view-more">
+      <button type="button" class="btn btn-secondary">View More..</button>
+
+    </div>
+    </div>
+
+    <!--CONTACT US MODEL-->
+    <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div id="contact-us">
+                    Thanks for reaching us!! <br>
+                    Please enter your email and we will reach you soon <br>
+                    <form action="index.html">
+                      <input type="email" placeholder="Ex: example@upgrad.com" name="email" required>
+                      <br>
+                      <div class="modal-footer">
+                        <button type="submit button" class="btn btn-primary">Submit</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    <footer>
+      <div class="footer-div">
+        <div class="contact-us">
+          <!-- Button trigger modal -->
+          <button type="button" class="contact-btn btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Contact Us
+          </button>
+
+        </div>
+        <div class="social-media-links">
+          <div class="facebook">
+            <a href="" target="_blank"><img src="assests/images/facebook.png" alt="fb"></a>
+          </div>
+  
+          <div class="instagram">
+            <a href="" target="_blank"><img src="assests/images/instagram.png" alt="insta"></a>
+          </div>
+  
+          <div class="twitter">
+            <a href="" target="_blank"><img src="assests/images/twitter.png" alt=""></a>
+          </div>
+        </div>
+  
+        <div class="copyright">
+          &copy; 2022 ROOM SEARCH PVT LTD
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+
+
+  <!-- Bootstrap Script -->
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+</body>
+</html>
